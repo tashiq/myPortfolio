@@ -98,6 +98,7 @@ code {
   position: fixed;
   right: 0;
   top: 50%;
+  z-index: 2;
   font-size: 21px;
   padding: 10px;
   background-color: rgb(207, 126, 112);
