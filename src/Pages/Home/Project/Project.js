@@ -12,7 +12,7 @@ const Project = () => {
     const [projects, setProjects] = useState([]);
     // const navigate = useNavigate()
     useEffect(() => {
-        fetch('http://localhost:4000/projects')
+        fetch('https://mysterious-fjord-52133.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])

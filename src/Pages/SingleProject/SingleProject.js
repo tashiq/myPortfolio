@@ -8,7 +8,7 @@ const SingleProject = () => {
     const [project, setProject] = useState({})
     // console.log(id);
     useEffect(() => {
-        fetch(`http://localhost:4000/projects/${id}`)
+        fetch(`https://mysterious-fjord-52133.herokuapp.com/projects/${id}`)
             .then(res => res.json())
             .then(data => setProject(data))
     }, [id])
