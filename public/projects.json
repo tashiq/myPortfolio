@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Laptopea",
+        "options": [
+            "A full stack website.",
+            "3 different users possible Normal user, signed in user and admin.",
+            "Email verification available.",
+            "Materials used for front end: React, React Router, Material UI, Firebase authentication, JavaScript.",
+            "Materials used for backend: Express, MongoDB, JavaScript.",
+            "Easy to modify",
+            "Combination of React, Firebase, MongoDB"
+        ],
+        "img": [
+            "https://i.ibb.co/dMT8BXy/laptopea.png",
+            "https://i.ibb.co/6sXYf5q/dashboard-l.png",
+            "https://i.ibb.co/yF1zsCg/comment.png",
+            "https://i.ibb.co/hyYs5Cj/login-l.png"
+        ],
+        "server": [
+            "https://github.com/tashiq/laptopea-server"
+        ],
+        "client": [
+            "https://assignment12-d5f19.web.app/",
+            "https://github.com/tashiq/laptopea"
+        ]
+    },
+    {
+        "name": "Jumanji Park",
+        "options": [
+            "A full stack website.",
+            "Materials used for front end: React, React Router, Material UI, Firebase authentication, JavaScript.",
+            "Materials used for backend: Express, MongoDB, JavaScript.",
+            "2 different user possible. (admin and viewer)",
+            "Firebase Authentication is used",
+            "Combination of Firebase, React, MongoDB"
+        ],
+        "img": [
+            "https://i.ibb.co/kGjqwsX/jumanji.png",
+            "https://i.ibb.co/tmmpgvF/manage-j.png",
+            "https://i.ibb.co/6Rff3j7/spot-j.png"
+        ],
+        "server": [
+            "https://github.com/tashiq/Jumanji-server"
+        ],
+        "client": [
+            "https://assingment-2a620.web.app/",
+            "https://github.com/tashiq/Jumanji-client"
+        ]
+    },
+    {
+        "name": "Epic Health Care",
+        "options": [
+            "A Single Page Application",
+            "Features: Context API, React Router, Bootstrap.",
+            "Stonishing design.",
+            "Materials used for front end: React, React Router, Material UI, Firebase authentication, JavaScript.",
+            "Combination of Bootstrap, React",
+            "A front end application"
+        ],
+        "img": [
+            "https://i.ibb.co/QPthPVb/epic.png",
+            "https://i.ibb.co/HzDwxCf/faq-e.png",
+            "https://i.ibb.co/2WLT4k9/service-e.png"
+        ],
+        "server": [
+            "",
+            ""
+        ],
+        "client": [
+            "https://assignment-10-63c1e.web.app/",
+            "https://github.com/tashiq/epic-healthcare"
+        ]
+    },
+    {
+        "name": "",
+        "options": [
+            "Stonishing design",
+            "A full stack website.",
+            "MySQL is used in backend",
+            "Materials used for front end: React, React Router, Material UI, JavaScript.",
+            "Materials used for backend: Express, MySQL, JavaScript.",
+            "Combination of React and MySQL server",
+            "Firebase Authentication is available",
+            "Based on optimized ER model"
+        ],
+        "img": [
+            "https://i.ibb.co/gyJgH8m/nogorful.png",
+            "https://i.ibb.co/q9Q1ZkQ/br.png",
+            "https://i.ibb.co/yX0RGR3/gA.png",
+            "https://i.ibb.co/Pjqf9cM/aE.png",
+            "https://i.ibb.co/fnx7G3X/aa.png"
+        ],
+        "server": [
+            "https://github.com/tashiq/nogorful-server"
+        ],
+        "client": [
+            "/",
+            "https://github.com/tashiq/Nogorful-Client"
+        ]
+    }
+]

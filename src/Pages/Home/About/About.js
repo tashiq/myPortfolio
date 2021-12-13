@@ -1,10 +1,11 @@
+import { Grid } from '@mui/material';
 import React from 'react';
 import aboutImg from '../../../images/des.jpg'
 
 const About = () => {
     return (
-        <div className="d-flex about items-center" id="about">
-            <div className="about-text">
+        <Grid container spacing={2} id="about">
+            <Grid xs={12} md={6} className="about-text">
                 <h1 className="heading">About Me</h1>
                 <p className="text">
                     I am a student. I have studying Computer Science And Engineering at University Of Chittagong.
@@ -15,11 +16,11 @@ const About = () => {
                     <br />
                     I am also handy at MongoDB, MySQL, Express, SQL as a background development tool.
                 </p>
-            </div>
-            <div className="about-img">
+            </Grid>
+            <Grid xs={12} md={6} className="about-img">
                 <img src={aboutImg} alt="Fahim Foisal" />
-            </div>
-        </div>
+            </Grid>
+        </Grid>
     );
 };
 

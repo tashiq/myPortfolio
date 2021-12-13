@@ -50,11 +50,6 @@ code {
   /* overflow-y: hidden visible; */
 
 }
-.banner-h3-text{
-  color: grey;
-  font-weight: 600;
-  font-size: 50px;
-}
 .banner-text{
   color: rgb(32, 13, 66);
   background-color: honeydew;
@@ -72,14 +67,12 @@ code {
   width: 47%;
   box-sizing: border-box;
   padding: 10px 20px;
-  min-height: 70vh;
-  background-color: honeydew;
+  background-color: #f0fff0;
   color:rgb(79, 78, 82)
 }
 .about-img{
   width: 53%;
-  min-height: 70vh;
-  background-color: #f2f2f2;
+  background-color:#e7e5e6;
 }
 .about-img img{
   width: 60%;
@@ -88,7 +81,9 @@ code {
  */
 .contact-form{
   background-color: #a39ea2;
-  padding: 10px 100px 70px 100px;
+  /* padding: 10px 100px 70px 100px; */
+  padding-bottom: 20px;
+  padding-top: 10px;
   margin-top: 70px;
 }
 .contact-form input{
@@ -114,10 +109,12 @@ code {
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.single-project img{
+  width: 48vw;
+}
 @media only screen and (max-width: 720px) {
   .banner{
     flex-direction: column;
-    /* min-height: calc(95vh); */
   }
   .banner-img,.about-img, .about-text{
     width: 100%;
@@ -129,6 +126,7 @@ code {
   .banner-img img{
     height: 100%;
     width: auto;
+    /* padding-left: 12px; */
   }
   .banner-text{
     width: 100%;
@@ -137,4 +135,13 @@ code {
   .about{
     flex-direction: column;
   }
+.single-project img{
+  width: 96vw;
+}
+  /* .nav::after{
+    content: "...";
+    font-size: 31px;
+    color: white;
+    margin-bottom: 20px;
+  } */
 }
